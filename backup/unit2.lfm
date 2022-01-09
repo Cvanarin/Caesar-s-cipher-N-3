@@ -1,0 +1,55 @@
+object Form2: TForm2
+  Left = 890
+  Height = 241
+  Top = 111
+  Width = 320
+  Caption = 'Form2'
+  ClientHeight = 241
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  Visible = True
+  object ListBox1: TListBox
+    Left = 16
+    Height = 168
+    Top = 32
+    Width = 40
+    ItemHeight = 0
+    OnDblClick = ListBox1DblClick
+    TabOrder = 0
+  end
+  object ListBox2: TListBox
+    Left = 72
+    Height = 168
+    Top = 32
+    Width = 240
+    ItemHeight = 0
+    OnDblClick = ListBox2DblClick
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 15
+    Top = 8
+    Width = 35
+    Caption = 'Число'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 72
+    Height = 15
+    Top = 8
+    Width = 29
+    Caption = 'Текст'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 16
+    Height = 25
+    Top = 208
+    Width = 296
+    Caption = 'Cохранить'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+end
