@@ -32,7 +32,7 @@ type
     procedure Button4Click(Sender: TObject);
     procedure Button5Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
-    procedure ListBox1Click(Sender: TObject);
+
 
   private
 
